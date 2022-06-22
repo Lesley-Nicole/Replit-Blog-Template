@@ -1,0 +1,141 @@
+body {
+    padding: 10px;
+    color: rgb(48, 55, 61);
+    background-color: #dddbdb;
+    font-family: 'Fauna One', serif;
+    font-size: 3vw;
+}
+
+header, main {
+  padding: 1vh;
+  background-color: antiquewhite;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+  font-size: 7vw;
+  line-height: 4.5vh;
+}
+
+h5 {
+  text-align: center;
+  color: slategray;
+}
+
+.top-line {
+  margin: 5px;
+  color: slategray;
+}
+
+.main-image {
+  margin: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(coral, lightcoral, deeppink);
+}
+
+span {
+  font-size: 2vw;
+  color: gray;
+  display: inline-block;
+  height: 50px;
+  line-height: 18px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.article {
+  text-indent: 20px;
+  margin-top: 15px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.popular-posts img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 10px; /* Some padding */
+  width: 100%; /* Set a small width */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.popular-posts img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.about-me {
+  width: 55%;
+  text-align: center;
+  display: block;
+  font-size: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslategrey;
+  border-radius: 4%;
+  padding: 5px;
+  background-color: rgb(255, 248, 239);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+  padding: 5px;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.author {
+  font-size: 6vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
