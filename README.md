@@ -47,6 +47,7 @@ MIT
 
 ## Author
 
-- [@lesley-nicole](https://lesley-nicole.github.io)
+<p align="center">
+<a href="https://lesley-nicole.github.io"><img src="https://res.cloudinary.com/lesley-z/image/upload/v1655718990/Branding/Lesley-Nicole_nhs1rl.svg" width="50%" alt="Author Signature">
 
 
